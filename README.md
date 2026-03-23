@@ -73,11 +73,11 @@ All analysis is fully reproducible using the notebooks in the `notebook/` direct
 
 ## Key Findings
 
-- Strong positive relationship between press narrative centrality and club performance.  
-- Big Six dominate both the narrative and performance space.  
-- Narrative hype remains statistically significant even after controlling for spending.  
-- Presence of over-hyped under-performers and under-hyped over-performers.  
-- Narrative strength enhances both financial leverage and sporting outcomes.  
+- Strong positive relationship between press narrative centrality and club performance
+- Big Six dominate both the narrative and performance space  
+- Narrative hype remains statistically significant even after controlling for spending  
+- Presence of over-hyped under-performers and under-hyped over-performers  
+- Narrative strength enhances both financial leverage and sporting outcomes 
 
 ---
 
