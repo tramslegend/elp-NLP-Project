@@ -42,6 +42,7 @@ All cleaned and analysis-ready datasets are located in the `data/` directory.
 | `club_risk_return_panel_2019_2025.csv` | Risk-return quadrant dataset for narrative vs performance analysis |
 | `club_yearly_press_reddit_centrality.csv` | Yearly press vs Reddit centrality comparison |
 | `press_footy_centrality.parquet` | High-resolution press network centrality metrics |
+| `network_outputs/` | Raw pipeline outputs: extracted press/Reddit entity mentions (2016–2025), club and player centrality tables, and merged network–finance–fixture models |
 
 ---
 
@@ -79,6 +80,8 @@ Rendered regression tables are located in the `results/` directory.
 |------|-------------|
 | `regression_goal_difference.html` | Regression models with goal difference as the outcome variable |
 | `regression_points.html` | Regression models with league points as the outcome variable |
+
+Presentation slides live in `docs/slides/` (`transfer-narratives-presentation-2026-08-19.pptx`), and meeting notes in `docs/notes/`.
 
 ---
 
