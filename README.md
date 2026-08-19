@@ -71,6 +71,17 @@ All analysis is fully reproducible using the notebooks in the `notebook/` direct
 
 ---
 
+## Results
+
+Rendered regression tables are located in the `results/` directory.
+
+| File | Description |
+|------|-------------|
+| `regression_goal_difference.html` | Regression models with goal difference as the outcome variable |
+| `regression_points.html` | Regression models with league points as the outcome variable |
+
+---
+
 ## Key Findings
 
 - Strong positive relationship between press narrative centrality and club performance
