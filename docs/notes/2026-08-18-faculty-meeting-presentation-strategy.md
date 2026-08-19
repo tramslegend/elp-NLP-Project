@@ -46,9 +46,9 @@ Proposed framing: "wisdom of crowds" — news coverage reflects collective publi
 
 ## Literature Citations — Full Resource (added Aug 18 — Wilson)
 
-Everything below is organized by the argument it backs, so it can be pulled straight into slides or the paper. Papers that support more than one argument are cross-listed with a "(also →)" tag. All URLs verified; papers marked ★ are new finds not yet in `Literature_Review_Map.docx` (the annotated 27-paper map, Wilson, Apr 23 — has fuller summaries + relevance notes for each).
+Three streams (matching Prof. Tang's framing, with crowd sentiment as the third). Everything below is organized by the argument it backs, so it can be pulled straight into slides or the paper. Papers that support more than one argument are cross-listed with a "(also →)" tag. All URLs verified; papers marked ★ are new finds not yet in `Literature_Review_Map.docx` (the annotated 27-paper map, Wilson, Apr 23 — has fuller summaries + relevance notes for each).
 
-**One-line positioning:** Prior work shows (1) network position predicts outcomes, (2) network analysis works in soccer at the tactical / within-game level, and (3) crowd sentiment and media text carry predictive signal. We are the first to combine all three — text-derived club co-occurrence networks → centrality → **preseason, season-level prediction** of athletic (Paper 1) and commercial (Paper 2) performance.
+**One-line positioning (three streams):** Prior work shows (1) network position predicts outcomes, (2) network analysis works in soccer at the tactical / within-game level, and (3) crowd sentiment and media text carry predictive signal — which is what justifies building the network *from* press and fan discourse. We are the first to combine all three — text-derived club co-occurrence networks → centrality → **preseason, season-level prediction** of athletic (Paper 1) and commercial (Paper 2) performance.
 
 ---
 
@@ -105,8 +105,8 @@ Everything below is organized by the argument it backs, so it can be pulled stra
 
 ---
 
-### Stream 3 — Crowd sentiment & media text as predictors ("wisdom of crowds")
-*Argument: collective public attention and expectations, expressed in press and social media, contain information about future outcomes. Established in finance; emerging in sports. Our centrality score is a structural summary of that collective signal.*
+### Stream 3 — Crowd sentiment & media text as the basis of the network ("wisdom of crowds")
+*Argument: collective public attention and expectations, expressed in press and social media, contain information about future outcomes. Established in finance; emerging in sports. This validates using press + Reddit discourse as the raw material of the network — our centrality score is a structural summary of that collective signal. The closing sub-section ("why it matters commercially") is the add-on for Paper 2 / Discussion: even where narrative doesn't win games, it is a resource worth managing.*
 
 **Sports: social-media sentiment predicts results**
 - **Schumaker, Jarmoszko & Labedz (2016).** Predicting wins and spread in the Premier League using a sentiment analysis of Twitter. *Decision Support Systems*, 88, 76–84. https://www.sciencedirect.com/science/article/abs/pii/S0167923616300835
@@ -133,7 +133,7 @@ Everything below is organized by the argument it backs, so it can be pulled stra
 - ★ **Choi & Varian (2012).** Predicting the present with Google Trends. *Economic Record*, 88(s1), 2–9. https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4932.2012.00809.x
   Search data nowcasts economic indicators. Foundational "public attention as forecast input."
 
-**Media reputation predicts organizational performance** — (also → Stream 4; this is why Track 4 also belongs here)
+**Media reputation predicts organizational performance**
 - **Deephouse (2000).** Media reputation as a strategic resource: An integration of mass communication and resource-based theories. *Journal of Management*, 26(6), 1091–1112. https://journals.sagepub.com/doi/10.1177/014920630002600602
   Defines "media reputation" (overall evaluation of a firm in the media) and shows it **predicts financial performance** (ROA) in a panel of commercial banks. Directly analogous: media standing → firm outcomes.
 - **Fombrun & Shanley (1990).** What's in a name? Reputation building and corporate strategy. *Academy of Management Journal*, 33(2), 233–258. https://journals.aom.org/doi/10.5465/256324
@@ -143,19 +143,11 @@ Everything below is organized by the argument it backs, so it can be pulled stra
 - ★ **McCombs & Shaw (1972).** The agenda-setting function of mass media. *Public Opinion Quarterly*, 36(2), 176–187. https://doi.org/10.1086/267990
   Media salience ↔ public salience. Theoretical basis for treating press co-occurrence as a proxy for collective attention/expectations — the "wisdom of crowds" mechanism Prof. Tang proposed.
 
----
 
-### Stream 4 — Narrative / media attention as an organizational resource
-*Argument (mainly Paper 2, commercial returns; and the Discussion of Paper 1): even where narrative centrality does not move on-field results, it is a distinct strategic resource that clubs and investors should manage. This is what makes the MLS "decoupling" finding interesting rather than null.*
-
-**Resource-Based View**
+**Why it matters commercially — narrative attention as an organizational resource** *(add-on: Paper 2 and the Discussion of Paper 1; makes the MLS "decoupling" finding interesting rather than null)*
 - **Barney (1991).** Firm resources and sustained competitive advantage. *Journal of Management*, 17(1), 99–120. https://journals.sagepub.com/doi/10.1177/014920639101700108 — VRIN resources; narrative capital as valuable, rare, hard to imitate.
 - **Wernerfelt (1984).** A resource-based view of the firm. *Strategic Management Journal*, 5(2), 171–180. https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207 — original RBV.
-
-**Media reputation as a resource** — (also → Stream 3)
-- **Deephouse (2000)** and **Fombrun & Shanley (1990)** — see Stream 3. Media reputation is both a *predictor* (Stream 3) and a *resource* (Stream 4).
-
-**Sponsorship / commercial value of attention**
+- **Deephouse (2000)** and **Fombrun & Shanley (1990)** — above; media reputation is both a *predictor* and a *resource*.
 - **Cornwell, Weeks & Roy (2005).** Sponsorship-linked marketing: Opening the black box. *Journal of Advertising*, 34(2), 21–42. https://www.tandfonline.com/doi/abs/10.1080/00913367.2005.10639194 — sponsors borrow the equity/attention of the property; centrality is what they're buying.
 - **Meenaghan (2001).** Understanding sponsorship effects. *Psychology & Marketing*, 18(2), 95–122. https://onlinelibrary.wiley.com/doi/10.1002/1520-6793(200102)18:2%3C95::AID-MAR1001%3E3.0.CO;2-H — image transfer, goodwill, fan identification.
 - **Biscaia, Correia, Rosado, Ross & Maroco (2013).** Sport sponsorship: team loyalty, sponsorship awareness, attitude toward the sponsor, and purchase intentions. *Journal of Sport Management*, 27(4), 288–302. https://journals.humankinetics.com/view/journals/jsm/27/4/article-p288.xml — fan-side mechanism linking attention to revenue.
@@ -169,4 +161,4 @@ Everything below is organized by the argument it backs, so it can be pulled stra
 - **Prediction markets / wisdom of crowds** — Surowiecki (2004) *The Wisdom of Crowds*; Wolfers & Zitzewitz (2004) "Prediction markets," *J. Economic Perspectives*. Popular + academic anchor for the framing Prof. Tang suggested. *[Verify.]*
 - **Bandwagon / attention–demand in sports** — attendance and TV-demand literature (e.g., Borland & Macdonald 2003, "Demand for sport," *Oxford Review of Economic Policy*). Links media attention to commercial outcomes for Paper 2. *[Verify.]*
 
-**Suggested slide mapping:** Stream 1 → "why network position predicts" (Christakis flu; Schwenkler news network); Stream 2 → "networks already work in soccer, but only within games" (Grund); Stream 3 → "the crowd knows" (Schumaker; Bollen; Deephouse); Stream 4 → "why it matters even when it doesn't win games" (Barney; Cornwell).
+**Suggested slide mapping:** Stream 1 → "why network position predicts" (Christakis flu; Schwenkler news network); Stream 2 → "networks already work in soccer, but only within games" (Grund); Stream 3 → "the crowd knows — so we build the network from what the crowd says" (Schumaker; Bollen; Deephouse), with a one-line closer "and it matters even when it doesn't win games" (Barney; Cornwell).
